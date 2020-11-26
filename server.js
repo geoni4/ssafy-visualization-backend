@@ -5,7 +5,7 @@ const PORT = 8000;
 const io = require("socket.io")(server);
 const cors = require("cors");
 const {sequelize, Sensing2} = require("./models");
-const { randomArray } = require("./uilts/random");
+const { randomArray } = require("./utils/random");
 const { time } = require("console");
 
 app.use(cors());
